@@ -3,9 +3,7 @@
 
 name: React Deployment using Surge
 
-on:
-  release:
-    types: [created]
+on: [push]
 
 jobs:
   build:
