@@ -22,5 +22,5 @@ jobs:
       - name : Install Surge
         run  : npm install --global surge
       - name : Deploy Surge
-        run : surge ./build cooing-laborer.surge.sh --token ${{ secrets.Surge.Token }}
+        run : surge ./build hprickly-train.surge.sh --token ${{ secrets.Surge.Token }}
         
